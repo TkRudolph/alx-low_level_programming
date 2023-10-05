@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - program that prints various data types using sizeof 
+ * main - program that prints various data types using sizeof
  *
  * Return: 0 (Success)
  */
