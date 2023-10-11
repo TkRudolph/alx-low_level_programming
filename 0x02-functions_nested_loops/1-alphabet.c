@@ -5,9 +5,9 @@
  *
  * Return: 0 (success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	int c;
+	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
@@ -15,7 +15,6 @@ int main(void)
 	}
 
 	_putchar('\n');
-	return (0);
 }
 
 
