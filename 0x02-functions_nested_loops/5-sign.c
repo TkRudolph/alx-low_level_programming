@@ -2,10 +2,10 @@
 
 /**
  * print_sign - prints the sign of a number
+ * @n: number to be tested
  *
  * Return: 1 if positive & > 0 if = 0 then 0 else -1
- *@n - tested number
-  */
+ */
 
 int print_sign(int n)
 {
