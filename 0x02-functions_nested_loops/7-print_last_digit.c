@@ -22,6 +22,10 @@ int print_last_digit(int n)
 	{
 		x = 98 % 10;
 	}
+	else if (n == 0)
+	{
+		_putchar('0');
+	}
 
 	_putchar('0' + x);
 	return (x);
