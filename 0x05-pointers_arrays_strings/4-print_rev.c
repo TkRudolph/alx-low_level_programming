@@ -10,16 +10,16 @@ void print_rev(char *s)
 {
 	int xtring;
 
-	xtring = 0;
-
 	int y;
+
+	xtring = 0;
 
 	while (*s != '\0')
 	{
 		xtring++;
 		s++;
 	}
-	s--
+	s--;
 	for (y = xtring; y > 0; y--)
 	{
 		_putchar(*s);

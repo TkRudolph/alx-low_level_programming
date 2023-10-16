@@ -14,13 +14,11 @@ void puts2(char *str)
 
 	int y;
 
-	char *p;
+	char *p = str;
 
 	i = 0;
 
 	x = 0;
-
-	*p = str;
 
 	while (*p != '\0')
 	{
